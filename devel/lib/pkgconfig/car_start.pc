@@ -1,4 +1,4 @@
-prefix=/home/cat/Car_ws/devel
+prefix=/home/cat/Car_ws_6_23/devel
 
 Name: car_start
 Description: Description of car_start

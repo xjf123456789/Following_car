@@ -1,8 +1,8 @@
-# Install script for directory: /home/cat/Car_ws/src/car_odom
+# Install script for directory: /home/cat/Car_ws_6_23/src/car_odom
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/cat/Car_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/cat/Car_ws_6_23/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cat/Car_ws/build/car_odom/catkin_generated/installspace/car_odom.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cat/Car_ws_6_23/build/car_odom/catkin_generated/installspace/car_odom.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_odom/cmake" TYPE FILE FILES
-    "/home/cat/Car_ws/build/car_odom/catkin_generated/installspace/car_odomConfig.cmake"
-    "/home/cat/Car_ws/build/car_odom/catkin_generated/installspace/car_odomConfig-version.cmake"
+    "/home/cat/Car_ws_6_23/build/car_odom/catkin_generated/installspace/car_odomConfig.cmake"
+    "/home/cat/Car_ws_6_23/build/car_odom/catkin_generated/installspace/car_odomConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_odom" TYPE FILE FILES "/home/cat/Car_ws/src/car_odom/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_odom" TYPE FILE FILES "/home/cat/Car_ws_6_23/src/car_odom/package.xml")
 endif()
 

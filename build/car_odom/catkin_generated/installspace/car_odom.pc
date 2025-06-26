@@ -1,4 +1,4 @@
-prefix=/home/cat/Car_ws/install
+prefix=/home/cat/Car_ws_6_23/install
 
 Name: car_odom
 Description: Description of car_odom

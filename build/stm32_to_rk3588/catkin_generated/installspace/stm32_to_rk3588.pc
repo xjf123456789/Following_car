@@ -1,4 +1,4 @@
-prefix=/home/cat/Car_ws/install
+prefix=/home/cat/Car_ws_6_23/install
 
 Name: stm32_to_rk3588
 Description: Description of stm32_to_rk3588

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/cat/Car_ws/devel/include/stm32_to_rk3588/stm32_to_rk3588_uart.h
+/home/cat/Car_ws_6_23/devel/include/stm32_to_rk3588/stm32_to_rk3588_uart.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/cat/Car_ws/src/stm32_to_rk3588/src/stm32_to_rk3588.cpp
+/home/cat/Car_ws_6_23/src/stm32_to_rk3588/src/stm32_to_rk3588.cpp
 stdio.h
 -
 stdlib.h
@@ -42,13 +42,13 @@ string.h
 sys/ioctl.h
 -
 ros/ros.h
-/home/cat/Car_ws/src/stm32_to_rk3588/src/ros/ros.h
+/home/cat/Car_ws_6_23/src/stm32_to_rk3588/src/ros/ros.h
 std_msgs/String.h
-/home/cat/Car_ws/src/stm32_to_rk3588/src/std_msgs/String.h
+/home/cat/Car_ws_6_23/src/stm32_to_rk3588/src/std_msgs/String.h
 sstream
 -
 stm32_to_rk3588/stm32_to_rk3588_uart.h
-/home/cat/Car_ws/src/stm32_to_rk3588/src/stm32_to_rk3588/stm32_to_rk3588_uart.h
+/home/cat/Car_ws_6_23/src/stm32_to_rk3588/src/stm32_to_rk3588/stm32_to_rk3588_uart.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

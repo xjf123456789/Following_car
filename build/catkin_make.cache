@@ -1,2 +1,2 @@
-car_cmd_vel:car_odom:car_start:stm32_to_rk3588
--DCATKIN_DEVEL_PREFIX=/home/cat/Car_ws/devel -DCMAKE_INSTALL_PREFIX=/home/cat/Car_ws/install -G Unix Makefiles
+car_cmd_vel:car_odom:car_start:rplidar_ros:stm32_to_rk3588
+-DCATKIN_DEVEL_PREFIX=/home/cat/Car_ws_6_23/devel -DCMAKE_INSTALL_PREFIX=/home/cat/Car_ws_6_23/install -G Unix Makefiles

@@ -67,14 +67,14 @@ set(stm32_to_rk3588_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(stm32_to_rk3588_SOURCE_PREFIX /home/cat/Car_ws/src/stm32_to_rk3588)
-  set(stm32_to_rk3588_DEVEL_PREFIX /home/cat/Car_ws/devel)
+  set(stm32_to_rk3588_SOURCE_PREFIX /home/cat/Car_ws_6_23/src/stm32_to_rk3588)
+  set(stm32_to_rk3588_DEVEL_PREFIX /home/cat/Car_ws_6_23/devel)
   set(stm32_to_rk3588_INSTALL_PREFIX "")
   set(stm32_to_rk3588_PREFIX ${stm32_to_rk3588_DEVEL_PREFIX})
 else()
   set(stm32_to_rk3588_SOURCE_PREFIX "")
   set(stm32_to_rk3588_DEVEL_PREFIX "")
-  set(stm32_to_rk3588_INSTALL_PREFIX /home/cat/Car_ws/install)
+  set(stm32_to_rk3588_INSTALL_PREFIX /home/cat/Car_ws_6_23/install)
   set(stm32_to_rk3588_PREFIX ${stm32_to_rk3588_INSTALL_PREFIX})
 endif()
 
@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/cat/Car_ws/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/cat/Car_ws_6_23/install/lib;/home/cat/Car_ws_6_23/devel/lib;/home/cat/Car_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

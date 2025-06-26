@@ -1,0 +1,13 @@
+{
+    "idf.pythonInstallPath": "/usr/bin/python3",
+    "python.autoComplete.extraPaths": [
+        "/home/ubuntu/Desktop/LIDAR_C1/Car_ws/devel/lib/python3/dist-packages",
+        "/home/ubuntu/ROS_DEMO/demo03_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ubuntu/Desktop/LIDAR_C1/Car_ws/devel/lib/python3/dist-packages",
+        "/home/ubuntu/ROS_DEMO/demo03_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

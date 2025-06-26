@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cat/Car_ws/devel/lib/stm32_to_rk3588/stm32_to_rk3588"
-  "/home/cat/Car_ws/devel/lib/stm32_to_rk3588/stm32_to_rk3588.pdb"
+  "/home/cat/Car_ws_6_23/devel/lib/stm32_to_rk3588/stm32_to_rk3588"
+  "/home/cat/Car_ws_6_23/devel/lib/stm32_to_rk3588/stm32_to_rk3588.pdb"
   "CMakeFiles/stm32_to_rk3588.dir/src/stm32_to_rk3588.cpp.o"
 )
 

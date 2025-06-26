@@ -1,0 +1,8 @@
+<launch>
+    <!-- 启动SLAM节点 -->
+    <include file="$(find car_odom)/launch/hector.launch" />
+    <!-- 运行move_base节点 -->
+    <include file="$(find car_odom)/launch/move_base.launch" />
+
+
+</launch>

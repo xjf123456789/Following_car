@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cat/Car_ws/src
+CMAKE_SOURCE_DIR = /home/cat/Car_ws_6_23/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cat/Car_ws/build
+CMAKE_BINARY_DIR = /home/cat/Car_ws_6_23/build
 
 # Utility rule file for stm32_to_rk3588_genlisp.
 
@@ -63,10 +63,10 @@ stm32_to_rk3588/CMakeFiles/stm32_to_rk3588_genlisp.dir/build: stm32_to_rk3588_ge
 .PHONY : stm32_to_rk3588/CMakeFiles/stm32_to_rk3588_genlisp.dir/build
 
 stm32_to_rk3588/CMakeFiles/stm32_to_rk3588_genlisp.dir/clean:
-	cd /home/cat/Car_ws/build/stm32_to_rk3588 && $(CMAKE_COMMAND) -P CMakeFiles/stm32_to_rk3588_genlisp.dir/cmake_clean.cmake
+	cd /home/cat/Car_ws_6_23/build/stm32_to_rk3588 && $(CMAKE_COMMAND) -P CMakeFiles/stm32_to_rk3588_genlisp.dir/cmake_clean.cmake
 .PHONY : stm32_to_rk3588/CMakeFiles/stm32_to_rk3588_genlisp.dir/clean
 
 stm32_to_rk3588/CMakeFiles/stm32_to_rk3588_genlisp.dir/depend:
-	cd /home/cat/Car_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cat/Car_ws/src /home/cat/Car_ws/src/stm32_to_rk3588 /home/cat/Car_ws/build /home/cat/Car_ws/build/stm32_to_rk3588 /home/cat/Car_ws/build/stm32_to_rk3588/CMakeFiles/stm32_to_rk3588_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cat/Car_ws_6_23/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cat/Car_ws_6_23/src /home/cat/Car_ws_6_23/src/stm32_to_rk3588 /home/cat/Car_ws_6_23/build /home/cat/Car_ws_6_23/build/stm32_to_rk3588 /home/cat/Car_ws_6_23/build/stm32_to_rk3588/CMakeFiles/stm32_to_rk3588_genlisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : stm32_to_rk3588/CMakeFiles/stm32_to_rk3588_genlisp.dir/depend
 

@@ -8,5 +8,6 @@
     "files.associations": {
         "string": "cpp"
     },
-    "cmake.sourceDirectory": "/home/cat/Car_ws/src/car_start"
+    "cmake.sourceDirectory": "/home/cat/Car_ws/src/car_start",
+    "idf.pythonInstallPath": "/usr/bin/python3"
 }

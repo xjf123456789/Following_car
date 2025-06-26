@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cat/Car_ws/devel/lib/car_odom/car_odom"
-  "/home/cat/Car_ws/devel/lib/car_odom/car_odom.pdb"
+  "/home/cat/Car_ws_6_23/devel/lib/car_odom/car_odom"
+  "/home/cat/Car_ws_6_23/devel/lib/car_odom/car_odom.pdb"
   "CMakeFiles/car_odom.dir/src/car_odom.cpp.o"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cat/Car_ws/devel/lib/car_cmd_vel/car_keyboard"
-  "/home/cat/Car_ws/devel/lib/car_cmd_vel/car_keyboard.pdb"
+  "/home/cat/Car_ws_6_23/devel/lib/car_cmd_vel/car_keyboard"
+  "/home/cat/Car_ws_6_23/devel/lib/car_cmd_vel/car_keyboard.pdb"
   "CMakeFiles/car_keyboard.dir/src/car_keyboard.cpp.o"
 )
 

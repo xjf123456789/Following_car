@@ -11,27 +11,40 @@
 #include <geometry_msgs/Twist.h>
 const char default_path[] = "/dev/ttyS0";
 
+// 定义帧头和帧尾
+const uint8_t FRAME_HEADER[2] = {0xAA, 0xBB};
+const uint8_t FRAME_TAIL[2] = {0xCC, 0xDD};
+
+//rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+
 
 int fd = -1; // 串口描述符，提升为全局变量
 void doMsg(const geometry_msgs::Twist::ConstPtr& msg)
 {
   // 提取线速度和角速度
-    float linear_x = (msg->linear.x)*10;   // 前进/后退速度（m/s）
-    float linear_y = (msg->linear.y)*10;   // 左右速度（m/s）
-    float angular_z = (msg->angular.z)*10; // 旋转速度（rad/s）
+    float linear_x = (msg->linear.x);   // 前进/后退速度（m/s）
+    float linear_y = (msg->linear.y);   // 左右速度（m/s）
+    float angular_z = (msg->angular.z); // 旋转速度（rad/s）
 
   /****************接收键盘信息并通过串口发送给stm32************************************* */
     // 打包为字节数组
-    uint8_t tx[12] = {0};
+    uint8_t tx[16] = {0};
+
+    // 添加帧头
+    tx[0] = FRAME_HEADER[0];
+    tx[1] = FRAME_HEADER[1];
     union { float f; uint8_t b[4]; } u;
     u.f = linear_x;
-    for (int i = 0; i < 4; ++i) tx[i] = u.b[i];
+    for (int i = 0; i < 4; ++i) tx[2 + i] = u.b[i];
     u.f = linear_y;
-    for (int i = 0; i < 4; ++i) tx[4 + i] = u.b[i];
+    for (int i = 0; i < 4; ++i) tx[6 + i] = u.b[i];
     u.f = angular_z;
-    for (int i = 0; i < 4; ++i) tx[8 + i] = u.b[i];
+    for (int i = 0; i < 4; ++i) tx[10 + i] = u.b[i];
+    // 添加帧尾
+    tx[14] = FRAME_TAIL[0];
+    tx[15] = FRAME_TAIL[1];
     // 通过串口发送
-    if (fd >= 0) write(fd, tx, 12);  
+    if (fd >= 0) write(fd, tx, 16);  
   /****************接收键盘信息并通过串口发送给stm32************************************* */
     // 打印接收到的速度值
     ROS_INFO("Received cmd_vel: linear.x=%.2f,linear.y=%.2f,angular.z=%.2f", linear_x,linear_y,angular_z);

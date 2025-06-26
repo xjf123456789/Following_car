@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/cat/Car_ws/src/stm32_to_rk3588/src/stm32_to_rk3588.cpp" "/home/cat/Car_ws/build/stm32_to_rk3588/CMakeFiles/stm32_to_rk3588.dir/src/stm32_to_rk3588.cpp.o"
+  "/home/cat/Car_ws_6_23/src/stm32_to_rk3588/src/stm32_to_rk3588.cpp" "/home/cat/Car_ws_6_23/build/stm32_to_rk3588/CMakeFiles/stm32_to_rk3588.dir/src/stm32_to_rk3588.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/cat/Car_ws/devel/include"
+  "/home/cat/Car_ws_6_23/devel/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

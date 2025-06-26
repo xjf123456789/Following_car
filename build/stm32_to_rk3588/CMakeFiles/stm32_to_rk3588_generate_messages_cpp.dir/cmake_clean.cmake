@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/cat/Car_ws/devel/include/stm32_to_rk3588/stm32_to_rk3588_uart.h"
+  "/home/cat/Car_ws_6_23/devel/include/stm32_to_rk3588/stm32_to_rk3588_uart.h"
   "CMakeFiles/stm32_to_rk3588_generate_messages_cpp"
 )
 

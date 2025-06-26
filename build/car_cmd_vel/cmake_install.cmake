@@ -1,8 +1,8 @@
-# Install script for directory: /home/cat/Car_ws/src/car_cmd_vel
+# Install script for directory: /home/cat/Car_ws_6_23/src/car_cmd_vel
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/cat/Car_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/cat/Car_ws_6_23/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cat/Car_ws/build/car_cmd_vel/catkin_generated/installspace/car_cmd_vel.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cat/Car_ws_6_23/build/car_cmd_vel/catkin_generated/installspace/car_cmd_vel.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_cmd_vel/cmake" TYPE FILE FILES
-    "/home/cat/Car_ws/build/car_cmd_vel/catkin_generated/installspace/car_cmd_velConfig.cmake"
-    "/home/cat/Car_ws/build/car_cmd_vel/catkin_generated/installspace/car_cmd_velConfig-version.cmake"
+    "/home/cat/Car_ws_6_23/build/car_cmd_vel/catkin_generated/installspace/car_cmd_velConfig.cmake"
+    "/home/cat/Car_ws_6_23/build/car_cmd_vel/catkin_generated/installspace/car_cmd_velConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_cmd_vel" TYPE FILE FILES "/home/cat/Car_ws/src/car_cmd_vel/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_cmd_vel" TYPE FILE FILES "/home/cat/Car_ws_6_23/src/car_cmd_vel/package.xml")
 endif()
 
