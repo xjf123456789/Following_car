@@ -1,0 +1,4 @@
+<launch>
+    
+    <include file="$(find uart_stm32)/launch/uart.launch"/>
+</launch>

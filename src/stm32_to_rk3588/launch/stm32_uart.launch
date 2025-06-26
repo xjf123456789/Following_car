@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="stm32_to_rk3588" type="stm32_to_rk3588" name="stm32_to_rk3588" output="screen">
+        <param name="port" value="/dev/ttyS0"/>
+    </node>
+</launch>
